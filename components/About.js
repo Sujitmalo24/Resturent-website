@@ -100,7 +100,7 @@ const About = () => {
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
                 <div className="p-8 text-white">
                   <blockquote className="text-lg font-medium mb-2">
-                    "Creating culinary art that touches the soul and brings people together."
+                    &ldquo;Creating culinary art that touches the soul and brings people together.&rdquo;
                   </blockquote>
                   <cite className="text-sm opacity-90">- Chef Marco Rodriguez, Head Chef</cite>
                 </div>
@@ -142,9 +142,9 @@ const About = () => {
             </div>
             <h3 className="text-2xl font-bold text-gray-900 mb-4">From Our Kitchen to Your Heart</h3>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              "At Delicious, we don't just prepare meals – we craft experiences. Every ingredient 
+              &ldquo;At Delicious, we don&apos;t just prepare meals – we craft experiences. Every ingredient 
               is chosen with care, every technique perfected through passion, and every dish 
-              served with love. Join us on this culinary journey where tradition meets innovation."
+              served with love. Join us on this culinary journey where tradition meets innovation.&rdquo;
             </p>
             <div className="flex items-center justify-center">
               <div className="text-center">
