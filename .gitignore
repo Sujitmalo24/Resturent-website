@@ -1,41 +1,90 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Production-ready .gitignore for a Next.js project
 
-# dependencies
-/node_modules
-/.pnp
+# Node dependencies
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+/.vercel/
+/.netlify/
+/.firebase/
+/build/
+/dist/
+
+# Local env files (do NOT commit secrets)
+.env.local
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+*.log
+logs/
+debug.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keys, certificates and secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+*.asc
+*.gpg
+*.env.backup
+*.secret
+secrets.json
+
+# Cache and temporary
+.cache/
+.tmp/
+.next/cache/
+.eslintcache
+.parcel-cache/
+.cache-loader/
+
+# Test output
+/coverage/
+/jest/
+/test-results/
+/nyc_output/
+
+# Build tools / package managers
+.pnp/
+.pnp.js
 .pnp.*
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+.yarnrc.yml
+package-lock.json
 
-# testing
-/coverage
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
 
-# next.js
-/.next/
-/out/
+# Docker
+.Dockerfile
+docker-compose.override.yml
+docker-compose.*.yml
+/docker/
 
-# production
-/build
-
-# misc
-.DS_Store
-*.pem
-
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
+# Misc
 *.tsbuildinfo
 next-env.d.ts
+*.iml
+
+# Optional: keep example env file tracked
+!.env.example

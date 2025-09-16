@@ -1,0 +1,49 @@
+{
+  "reservations": [
+    {
+      "id": "RES-DEMO-001",
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "phone": "+1 (555) 123-4567",
+      "date": "2024-12-15",
+      "time": "7:00 PM",
+      "guests": 2,
+      "occasion": "Anniversary",
+      "specialRequests": "Window table if possible",
+      "status": "confirmed",
+      "createdAt": "2024-11-20T10:30:00.000Z",
+      "updatedAt": "2024-11-20T10:30:00.000Z"
+    },
+    {
+      "id": "RES-DEMO-002",
+      "firstName": "Sarah",
+      "lastName": "Johnson",
+      "email": "sarah.j@example.com",
+      "phone": "+1 (555) 987-6543",
+      "date": "2024-12-16",
+      "time": "6:30 PM",
+      "guests": 4,
+      "occasion": "Birthday Celebration",
+      "specialRequests": "Birthday dessert surprise",
+      "status": "pending",
+      "createdAt": "2024-11-20T14:15:00.000Z",
+      "updatedAt": "2024-11-20T14:15:00.000Z"
+    },
+    {
+      "id": "RES-MFJQN64A-MI89FI",
+      "firstName": "SUJIT",
+      "lastName": "MALO",
+      "email": "sujitmalo939@gmail.com",
+      "phone": "+919365509413",
+      "date": "2025-09-14",
+      "time": "9:30 PM",
+      "guests": 3,
+      "occasion": "Family Gathering",
+      "specialRequests": "uhu",
+      "status": "pending",
+      "createdAt": "2025-09-14T13:35:53.531Z",
+      "updatedAt": "2025-09-14T13:35:53.531Z"
+    }
+  ]
+}

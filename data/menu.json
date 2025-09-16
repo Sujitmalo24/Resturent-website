@@ -1,0 +1,218 @@
+{
+  "categories": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "description": "Start your culinary journey with our exquisite appetizers"
+    },
+    {
+      "id": "mains",
+      "name": "Main Courses",
+      "description": "Signature dishes crafted to perfection"
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "description": "Sweet endings to complete your dining experience"
+    },
+    {
+      "id": "beverages",
+      "name": "Beverages",
+      "description": "Curated selection of wines, cocktails, and refreshments"
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "name": "Truffle Arancini",
+      "category": "appetizers",
+      "description": "Crispy risotto balls filled with black truffle and aged parmesan, served with saffron aioli",
+      "price": 18,
+      "image": "/menu/veg/veg1.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "gluten"],
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Seared Scallops",
+      "category": "appetizers",
+      "description": "Pan-seared diver scallops with cauliflower purée and pancetta crisps",
+      "price": 24,
+      "image": "/menu/nonveg/nonveg1.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": ["shellfish"],
+      "featured": false
+    },
+    {
+      "id": 3,
+      "name": "Burrata Caprese",
+      "category": "appetizers",
+      "description": "Fresh burrata with heirloom tomatoes, basil oil, and aged balsamic reduction",
+      "price": 16,
+      "image": "/menu/veg/veg2.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy"],
+      "featured": false
+    },
+    {
+      "id": 4,
+      "name": "Wagyu Beef Carpaccio",
+      "category": "appetizers",
+      "description": "Thinly sliced wagyu beef with arugula, capers, and lemon-herb dressing",
+      "price": 28,
+      "image": "/menu/nonveg/nonveg2.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": [],
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Lobster Thermidor",
+      "category": "mains",
+      "description": "Classic French preparation with cognac cream sauce and gruyère cheese",
+      "price": 48,
+      "image": "/menu/nonveg/nonveg3.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": ["shellfish", "dairy"],
+      "featured": true
+    },
+    {
+      "id": 6,
+      "name": "Dry-Aged Ribeye",
+      "category": "mains",
+      "description": "28-day dry-aged ribeye steak with roasted bone marrow and red wine jus",
+      "price": 52,
+      "image": "/menu/nonveg/nonveg4.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": [],
+      "featured": true
+    },
+    {
+      "id": 7,
+      "name": "Wild Mushroom Risotto",
+      "category": "mains",
+      "description": "Creamy arborio rice with wild mushrooms, truffle oil, and aged parmesan",
+      "price": 32,
+      "image": "/menu/veg/veg3.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy"],
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Pan-Seared Halibut",
+      "category": "mains",
+      "description": "Fresh halibut with lemon herb crust, seasonal vegetables, and beurre blanc",
+      "price": 38,
+      "image": "/menu/nonveg/nonveg5.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": ["fish", "dairy"],
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Eggplant Parmigiana",
+      "category": "mains",
+      "description": "Layers of grilled eggplant, fresh mozzarella, and San Marzano tomato sauce",
+      "price": 28,
+      "image": "/menu/veg/veg4.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "gluten"],
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Duck Confit",
+      "category": "mains",
+      "description": "Slow-cooked duck leg with cherry gastrique and roasted fingerling potatoes",
+      "price": 42,
+      "image": "/menu/nonveg/nonveg6.jpg",
+      "isVegetarian": false,
+      "isSpicy": false,
+      "allergens": [],
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Chocolate Soufflé",
+      "category": "desserts",
+      "description": "Warm dark chocolate soufflé with vanilla bean ice cream and berry coulis",
+      "price": 14,
+      "image": "/menu/veg/veg5.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "eggs", "gluten"],
+      "featured": true
+    },
+    {
+      "id": 12,
+      "name": "Tiramisu",
+      "category": "desserts",
+      "description": "Classic Italian tiramisu with espresso-soaked ladyfingers and mascarpone",
+      "price": 12,
+      "image": "/menu/veg/veg6.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "eggs", "gluten"],
+      "featured": false
+    },
+    {
+      "id": 13,
+      "name": "Lemon Tart",
+      "category": "desserts",
+      "description": "Tart lemon curd in buttery pastry shell with candied lemon zest",
+      "price": 10,
+      "image": "/menu/veg/veg7.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "eggs", "gluten"],
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Crème Brûlée",
+      "category": "desserts",
+      "description": "Vanilla bean custard with caramelized sugar crust and fresh berries",
+      "price": 11,
+      "image": "/menu/veg/veg1.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["dairy", "eggs"],
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "Sommelier's Selection",
+      "category": "beverages",
+      "description": "Curated wine pairing selected by our master sommelier",
+      "price": 25,
+      "image": "/menu/nonveg/nonveg7.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": ["sulfites"],
+      "featured": true
+    },
+    {
+      "id": 16,
+      "name": "Craft Cocktail",
+      "category": "beverages",
+      "description": "Signature cocktail crafted with premium spirits and house-made bitters",
+      "price": 16,
+      "image": "/menu/veg/veg2.jpg",
+      "isVegetarian": true,
+      "isSpicy": false,
+      "allergens": [],
+      "featured": false
+    }
+  ]
+}

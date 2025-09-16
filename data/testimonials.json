@@ -1,0 +1,58 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "name": "Sarah Johnson",
+      "role": "Food Blogger",
+      "image": "/images/testimonials/customer1.svg",
+      "rating": 5,
+      "review": "Absolutely incredible dining experience! The flavors were perfectly balanced and the presentation was stunning. This restaurant has quickly become my favorite spot in the city.",
+      "date": "2024-11-15"
+    },
+    {
+      "id": 2,
+      "name": "Michael Chen",
+      "role": "Local Resident",
+      "image": "/images/testimonials/customer2.svg",
+      "rating": 5,
+      "review": "The ambiance is perfect for special occasions. The staff was attentive without being intrusive, and every dish exceeded our expectations. Highly recommended!",
+      "date": "2024-11-12"
+    },
+    {
+      "id": 3,
+      "name": "Emily Rodriguez",
+      "role": "Restaurant Critic",
+      "image": "/images/testimonials/customer3.svg",
+      "rating": 5,
+      "review": "A culinary masterpiece! The chef's attention to detail is evident in every bite. The seasonal menu shows creativity and respect for local ingredients.",
+      "date": "2024-11-10"
+    },
+    {
+      "id": 4,
+      "name": "David Thompson",
+      "role": "Business Executive",
+      "image": "/images/testimonials/customer4.svg",
+      "rating": 5,
+      "review": "Perfect venue for business dinners. The private dining area provided the ideal atmosphere for important meetings. Exceptional service and cuisine.",
+      "date": "2024-11-08"
+    },
+    {
+      "id": 5,
+      "name": "Lisa Wang",
+      "role": "Anniversary Celebration",
+      "image": "/images/testimonials/customer5.svg",
+      "rating": 5,
+      "review": "Celebrated our 10th anniversary here and it was magical. The romantic setting, exquisite food, and personalized service made it an unforgettable evening.",
+      "date": "2024-11-05"
+    },
+    {
+      "id": 6,
+      "name": "James Wilson",
+      "role": "Wine Enthusiast",
+      "image": "/images/testimonials/customer6.svg",
+      "rating": 5,
+      "review": "The wine pairing was exceptional! The sommelier's recommendations perfectly complemented each course. A true gastronomic journey.",
+      "date": "2024-11-03"
+    }
+  ]
+}
